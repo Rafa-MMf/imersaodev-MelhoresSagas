@@ -1,0 +1,65 @@
+*{ /*RESET*/
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto Mono',monospace;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2luZW1hfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+    
+  .texto {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    color: #ffffff;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+  }
+  
+  
+  
+  #listaFilmes img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 40px 0 15px;
+  }
+  
+  .form-wrapper input {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #DA1E26;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
+
+body > img {
+  margin: 0 10px;
+}
